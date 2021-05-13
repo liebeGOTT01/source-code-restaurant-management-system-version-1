@@ -4,7 +4,7 @@
 
 class rms
 {
-	public $base_url = 'http://localhost/source-code-restaurant-management-system-version-1/';
+	public $base_url = '';
 	public $connect;
 	public $query;
 	public $statement;

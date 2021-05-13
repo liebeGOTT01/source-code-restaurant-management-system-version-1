@@ -21,7 +21,9 @@ include('header.php');
 ?>
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-4 text-gray-800">User Management</h1>
+                    <div class="card mb-2 pl-2 pt-2" id="card-title1" style="width:18.5rem;">
+                        <h1 class="h3">User Management</h1>
+                    </div>
 
                     <!-- DataTales Example -->
                     <span id="message"></span>

@@ -12,10 +12,11 @@
                 include('header.php');
 
                 ?>
-
+        
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-4 text-gray-800">Dashboard</h1>
-
+                    <div class="card mb-2 pl-2 pt-2" id="card-title">
+                        <h1 class="h3 d-flex justify-content-center" id="dash">Dashboard</h1>
+                    </div>
                     <!-- Content Row -->
                     <div class="row">
                         <?php
@@ -46,7 +47,7 @@
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                            <div class="text-xs font-weight-bold text-dark text-uppercase mb-1" id="th">
                                                 Yesterday Sales</div>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $object->Get_total_yesterday_sales(); ?></div>
                                         </div>
@@ -64,7 +65,7 @@
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Last 7 Day Sales
+                                            <div class="text-xs font-weight-bold text-white text-uppercase mb-1">Last 7 Day Sales
                                             </div>
                                             <div class="row no-gutters align-items-center">
                                                 <div class="col-auto">
@@ -98,9 +99,9 @@
                             </div>
                         </div>                    
 
-                    <?php
-                    }
-                    ?>
+                        <?php
+                        }
+                        ?>
                         <div class="col-md-12">
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
@@ -118,6 +119,9 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="drop drop2"></div>
+                        <div class="drop drop3"></div>
+                        <div class="drop drop4"></div>
                     </div>
 
                 <?php

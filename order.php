@@ -19,12 +19,14 @@
                 ?>
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-4 text-gray-800">Order Area</h1>
+                    <div class="card mb-2 pl-2 pt-2" id="card-title1" style="width:12.3rem;">
+                        <h1 class="h3">Order Area</h1>
+                    </div>
 
                     <div class="row">
                         <div class="col col-sm-4">
                             <div class="card shadow mb-4">
-                                <div class="card-header py-3">Table Status</div>
+                                <div class="card-header py-3 text-primary" id="order">Table Status</div>
                                 <div class="card-body" id="table_status">
                                 <?php
                                 /*$object->query = "
@@ -45,7 +47,7 @@
                         </div>
                         <div class="col col-sm-8">
                             <div class="card shadow mb-4">
-                                <div class="card-header py-3">Order Status</div>
+                                <div class="card-header py-3 text-primary" id="order">Order Status</div>
                                 <div class="card-body">
                                     <div class="table-responsive" id="order_status">
 

@@ -35,6 +35,7 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
+        <section class="panel">
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
@@ -67,27 +68,27 @@
             ?>
             <li class="nav-item">
                 <a class="nav-link" href="category.php">
-                    <i class="fas fa-th-list"></i>
+                    <i class="fas fa-th-list text-dark"></i>
                     <span>Category</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="table.php">
-                    <i class="fas fa-couch"></i>
+                    <i class="fas fa-couch text-dark"></i>
                     <span>Table</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="tax.php">
-                    <i class="fas fa-percent"></i>
+                    <i class="fas fa-percent text-dark"></i>
                     <span>Tax</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="product.php">
-                    <i class="fas fa-utensils"></i>
+                    <i class="fas fa-utensils text-dark"></i>
                     <span>Product</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="user.php">
-                    <i class="fas fa-users-cog"></i>
+                    <i class="fas fa-users-cog text-dark"></i>
                     <span>User</span></a>
             </li>
             <?php
@@ -97,7 +98,7 @@
             ?>
             <li class="nav-item">
                 <a class="nav-link" href="order.php">
-                    <i class="far fa-edit"></i>
+                    <i class="far fa-edit text-dark"></i>
                     <span>Order</span></a>
             </li>
             <?php
@@ -107,7 +108,7 @@
             ?>
             <li class="nav-item">
                 <a class="nav-link" href="billing.php">
-                    <i class="fas fa-file-invoice"></i>
+                    <i class="fas fa-file-invoice text-dark"></i>
                     <span>Billing</span></a>
             </li>
             <?php
@@ -119,6 +120,7 @@
             </div>
 
         </ul>
+        </section>
         <!-- End of Sidebar -->
 
         <!-- Content Wrapper -->

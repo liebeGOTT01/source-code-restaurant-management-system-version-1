@@ -25,8 +25,9 @@ include('header.php');
 ?>
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-4 text-gray-800">Setting</h1>
-
+                    <div class="card mb-2 pl-2 pt-2" id="card-title1" style="width:8.2rem;">
+                        <h1 class="h3">Setting</h1>
+                    </div>
                     <!-- DataTales Example -->
                     <span id="message"></span>
                     <form method="post" id="setting_form" enctype="multipart/form-data">
@@ -34,7 +35,7 @@ include('header.php');
                             <div class="card-header py-3">
                                 <div class="row">
                                     <div class="col">
-                                        <h6 class="m-0 font-weight-bold text-primary">Setting</h6>
+                                        <h4 class="m-0 font-weight-bold text-primary">Setting</h4>
                                     </div>
                                     <div clas="col" align="right">
                                         <button type="submit" name="edit_button" id="edit_button" class="btn btn-primary btn-sm"><i class="fas fa-edit"></i> Edit</button>
@@ -42,8 +43,8 @@ include('header.php');
                                     </div>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <div class="row">
+                            <div class="card-body" >
+                                <div class="row" id="setting">
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label>Restaurant Name</label>

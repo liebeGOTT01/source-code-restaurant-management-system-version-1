@@ -21,16 +21,17 @@ include('header.php');
 ?>
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-4 text-gray-800">Profile</h1>
-
+                    <div class="card mb-2 pl-2 pt-2" id="card-title1" style="width:8.2rem;">
+                        <h1 class="h3">Profile</h1>
+                    </div>
                     <!-- DataTales Example -->
-                    
+                    <div class="wrapper">
                     <form method="post" id="profile_form" enctype="multipart/form-data">
-                        <div class="row"><div class="col-md-6"><span id="message"></span><div class="card shadow mb-4">
+                        <div class="row" style="padding-left:33%;width:100%"><div><span id="message"></span><div class="card shadow mb-4">
                             <div class="card-header py-3">
                                 <div class="row">
                                     <div class="col">
-                                        <h6 class="m-0 font-weight-bold text-primary">Profile</h6>
+                                        <h4 class="m-0 font-weight-bold text-primary">Profile</h4>
                                     </div>
                                     <div clas="col" align="right">
                                         <input type="hidden" name="action" value="profile" />
@@ -70,6 +71,7 @@ include('header.php');
                             </div>
                         </div></div></div>
                     </form>
+                    </div>
                 <?php
                 include('footer.php');
                 ?>

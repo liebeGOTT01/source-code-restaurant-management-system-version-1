@@ -52,9 +52,9 @@ if($object->is_login())
         <!-- Outer Row -->
         <div class="row justify-content-center">
 
-            <div class="col-xl-5 col-lg-5 col-md-6">
+            <div class="col-xl-5 col-lg-5 col-md-9">
 
-                <div class="card o-hidden border-0 shadow-lg my-5">
+                <div class="card o-hidden border-0 shadow-lg my-5" style="width:30rem;">
                     <div class="card-body p-0">
                         <!-- Nested Row within Card Body -->
                         <div class="row">
